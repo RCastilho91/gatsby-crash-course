@@ -7,7 +7,7 @@ const links = [
     {'linkName': 'Contact', 'linkTo': '/contact'},
 ]
 
-export default function Navigation(){
+export default function Index(){
     const renderedLinks = links.map((link) =>
         <NavigationItem linkTo={link.linkTo} linkName={link.linkName} />
     )

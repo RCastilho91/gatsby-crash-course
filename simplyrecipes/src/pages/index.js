@@ -1,11 +1,13 @@
 import React from "react"
-import Navigation from "../components/navigation/navigation";
+import Layout from "../components/layouts";
+
 
 export default function Home() {
   return (
       <div>
-          <Navigation />
-        <h1>Hello world!</h1>
+        <Layout>
+            <h1>Hello world!</h1>
+        </Layout>
       </div>
   )
 }
